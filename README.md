@@ -23,5 +23,5 @@ docker run \
   --tty \
   --privileged \
   --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
-  daosdo/centos
+  daosdo/centos-systemd:latest
 ```
