@@ -1,6 +1,6 @@
 # Docker CentOS Systemd
 
-A Dockerfile for building CentOS images that have systemd.
+A Dockerfile for building CentOS images that have systemd enabled.
 
 ## Branches
 
@@ -15,13 +15,28 @@ of CentOS 8. The master branch always contains the latest version.
 |7.8    |7.8           |7.8.2003             |
 |7.7    |7.7           |7.7.1908             |
 
+The branches are not meant to be merged to master.
 
-## Manual Start
+## Usage
+
+### Run it
 
 ```
-docker run \
-  --tty \
+docker run -d \
   --privileged \
   --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
+  --name daosd-centos-systemd \
   daosdo/centos-systemd:latest
+```
+
+### Enter it
+
+```
+docker exec -it daosd-centos-systemd /bin/bash
+```
+
+### Remove it
+
+```
+docker rm -f daosd-centos-systemd
 ```
