@@ -1,21 +1,18 @@
 # Docker CentOS Systemd
 
-[![docker build](https://github.com/daos-do/docker-centos-systemd/workflows/docker%20build/badge.svg?branch=8.2)](https://hub.docker.com/repository/docker/daosdo/centos-systemd)
+[![docker build](https://github.com/daos-do/docker-centos-systemd/workflows/docker%20build/badge.svg?branch=master)](https://hub.docker.com/repository/docker/daosdo/centos-systemd)
 
-A Dockerfile for building CentOS images that have systemd enabled.
+CentOS image that has systemd enabled.
 
 ## Branches
 
-Each branch in this git repository is used for building specific versions
-of CentOS.
+Each branch in the repository is used for building a specific version.
 
-|Branch |CentOS Version|FROM Docker image tag|
-|-------|--------------|---------------------|
-|master |latest (8.2)  |latest               |
-|8.2    |8.2           |8.2.2004             |
-|8.1    |8.1           |8.1.1911             |
-|7.8    |7.8           |7.8.2003             |
-|7.7    |7.7           |7.7.1908             |
+| Branch | CentOS Version | FROM Docker image tag |
+| ------ | -------------- | --------------------- |
+| master | latest (8.2)   | latest                |
+| 8.2    | 8.2            | 8.2.2004              |
+| 7.8    | 7.8            | 7.8.2003              |
 
 ## Usage
 
