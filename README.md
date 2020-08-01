@@ -23,11 +23,15 @@ The branches are not meant to be merged to master.
 
 ```
 docker run -d \
+  --tty \
   --privileged \
   --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
   --name daosd-centos8.2-systemd \
   daosdo/centos-systemd:8.2
 ```
+
+Adding `--tty` allocates a pseudo-TTY and enables color in the logs when
+running `docker logs`.
 
 ### Enter it
 
