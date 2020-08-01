@@ -1,6 +1,6 @@
 # Docker CentOS Systemd
 
-[![build status](https://img.shields.io/docker/cloud/build/daos-do/centos-systemd)](https://hub.docker.com/repository/docker/daos-do/centos-systemd)
+[![build status](https://img.shields.io/docker/cloud/build/daosdo/centos-systemd)](https://hub.docker.com/repository/docker/daosdo/centos-systemd)
 
 CentOS image that has systemd enabled.
 
