@@ -5,7 +5,7 @@ A Dockerfile for building CentOS images that have systemd enabled.
 ## Branches
 
 Each branch in this git repository is used for building specific versions
-of CentOS 8. The master branch always contains the latest version.
+of CentOS. The master branch always contains the latest version.
 
 |Branch |CentOS Version|FROM Docker image tag|
 |-------|--------------|---------------------|
