@@ -14,5 +14,5 @@ jobs:
             username: ${{ secrets.DOCKER_HUB_USERNAME }}
             password: ${{ secrets.DOCKER_HUB_PASSWORD }}
             repository: daosdo/centos-systemd
-            tags: latest
+            tags: 7.8,7.8.2003
             push: true
