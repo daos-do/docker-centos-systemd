@@ -1,5 +1,7 @@
 # Docker CentOS Systemd
 
+[![docker build](https://github.com/daos-do/docker-centos-systemd/workflows/docker%20build/badge.svg?branch=master)](https://hub.docker.com/repository/docker/daosdo/centos-systemd)
+
 A Dockerfile for building CentOS images that have systemd enabled.
 
 ## Branches
