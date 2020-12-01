@@ -10,7 +10,7 @@ Each branch in the repository is used for building a specific version.
 
 | Branch | CentOS Version | FROM Docker image tag |
 | ------ | -------------- | --------------------- |
-| master | latest (8.2)   | latest                |
+| master | latest         | latest                |
 | 8.2    | 8.2            | 8.2.2004              |
 | 7.9    | 7.9            | 7.9.2009              |
 | 7.8    | 7.8            | 7.8.2003              |
