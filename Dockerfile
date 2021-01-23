@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos8.3.2011
 
 LABEL maintainer="daos-do"
 
