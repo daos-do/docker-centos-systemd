@@ -14,7 +14,9 @@ RUN cd /lib/systemd/system/sysinit.target.wants/ ; \
     rm -f /lib/systemd/system/basic.target.wants/* ; \
     rm -f /lib/systemd/system/anaconda.target.wants/*
 
-RUN LANG=C dnf -y update; \
+RUN LANG=C \
+    dnf -y clean all; \
+    dnf -y makecache; \
     dnf -y install python38 python3-pip python3-dnf sudo curl wget gzip tar less; \
     dnf -y install epel-release; \
     if [ -f /usr/bin/python3 ];then /usr/bin/python3 -m pip install --no-input --disable-pip-version-check pip --upgrade; fi; \
